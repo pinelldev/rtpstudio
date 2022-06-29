@@ -1,0 +1,9 @@
+a:link, a:visited {
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navs {
+    background-color: darkslategrey;
+    color: azure;
+}
