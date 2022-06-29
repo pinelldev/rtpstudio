@@ -2,14 +2,19 @@
 
 class Links
 {
-    public static function links($request)
+    public static function getLink($request)
     {
+        //Validar rutas
+        $route = explode("/",$request);
+
         //Listar las URL's
 
-        if ($request == "home") 
+        if ($request[0] == "home") 
         {
             //Respuesta
-            $modul = "views/home/".$request.".php";
+            $modul = "views/home/".$request[0].".php";
+        } else {
+            echo "Error";
         }
         return $modul;
     }

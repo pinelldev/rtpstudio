@@ -3,7 +3,7 @@
     <?php
 
         $links = new LinkController();
-        $links->links();
+        $links->getLink();
     ?>
 
 <?php require_once "includes/footer.php"?>
